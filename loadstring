@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0x274/AsterisForRoblox/main/NewMainScript.lua", true))()
