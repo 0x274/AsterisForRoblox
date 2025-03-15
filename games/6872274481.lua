@@ -8652,7 +8652,7 @@ local function createMonitoredTable(originalTable, onChange)
     return proxy
 end
 
-XFunctions:SetGlobalData('store', store)
+--XFunctions:SetGlobalData('store', store)
 --XFunctions:SetGlobalData('bedwars', bedwars)
 
 store = createMonitoredTable(store, function(key, o, n)
