@@ -8653,7 +8653,7 @@ local function createMonitoredTable(originalTable, onChange)
 end
 
 XFunctions:SetGlobalData('store', store)
-XFunctions:SetGlobalData('bedwars', bedwars)
+--XFunctions:SetGlobalData('bedwars', bedwars)
 
 store = createMonitoredTable(store, function(key, o, n)
 	XFunctions:SetGlobalData('store', store)
