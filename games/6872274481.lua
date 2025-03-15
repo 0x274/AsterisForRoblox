@@ -1,3 +1,6 @@
+-- Credits to @QP-Official, used some fixes from him. 
+-- If @QP-Officla wants this to be undone, DM @constellation.xyz on discord.
+
 local run = function(func)
 	func()
 end
